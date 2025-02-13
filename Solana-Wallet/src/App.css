@@ -1,0 +1,236 @@
+/* General App Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://wallpapercave.com/wp/wp9800906.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header Styling */
+.App-header {
+  background-color: rgba(40, 44, 52, 0.8);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Button Styling */
+button {
+  font-size: 18px;
+  padding: 12px 24px;
+  margin: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
+
+/* Input Field Styling */
+input, textarea {
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  width: 70%;
+}
+
+/* Wallet Container */
+.wallet-container {
+  text-align: center;
+  padding: 20px;
+  color: silver;
+}
+
+.create-btn {
+  font-size: 20px;
+  padding: 12px 24px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.create-btn:hover {
+  background: #218838;
+  transform: scale(1.05);
+}
+
+.seed-box {
+  background: rgba(255, 255, 255, 0.95);
+  color: silver;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.download-btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.download-btn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Dashboard Styling */
+.dashboard {
+  background: url('./login.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard h1 {
+  margin-top: 20px;
+  font-size: 36px;
+  color: silver;
+}
+
+.dashboard input {
+  font-size: 16px;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 70%;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Container for Content */
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+
+/* Balance Display */
+.seed-box p strong {
+  color: silver;
+  font-weight: bold;
+}
+
+.seed-box p:last-child {
+  color: #007bff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Home Page Styling */
+.container h2 {
+  margin: 15px 0;
+  color: silver;
+}
+
+.container button {
+  font-size: 18px;
+  padding: 12px 24px;
+  margin: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.container button:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
+
+.import-wallet-container {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+
+.import-input {
+  width: 90%;
+  max-width: 400px;
+  padding: 15px;
+  margin: 15px 0;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #222;
+  color: white;
+}
+
+.import-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.import-button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
